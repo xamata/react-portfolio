@@ -84,7 +84,7 @@ padding: 40px 24px;
 display: flex;
 flex-direction: column;
 align-items: start;
-bottom: 20%;
+bottom: 15%;
 left: 20%;
 
 /* margin-left: 10%; */
