@@ -57,17 +57,19 @@ overflow: hidden;
 export const ImageBackground = styled.img`
     /* fill in background position */
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
-    -o-object-fit: cover;
-    margin:0;
+    /* -o-object-fit: cover; */
+    /* top:-80px; */
     /* img positioning */
     /* position: relative; */
     /* margin-left: -80px; */
     
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 960px){
         object-fit:none;  
+        /* height: 100%; */
+        position: relative;
     }
 `
 
@@ -79,7 +81,7 @@ padding: 8px 24px;
 display: flex;
 flex-direction: column;
 align-items: start;
-margin-left: 16em;
+margin-left: 20em;
 /* margin-left:auto;
 margin-right:auto; */
 /* margin-left: 450px; */
