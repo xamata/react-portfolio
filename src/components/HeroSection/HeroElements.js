@@ -57,10 +57,11 @@ overflow: hidden;
 export const ImageBackground = styled.img`
     /* fill in background position */
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
+    -o-object-fit: cover;
     /* img positioning */
-    position: relative;
+    /* position: relative; */
     /* margin-left: -80px; */
     
 
@@ -77,7 +78,7 @@ padding: 8px 24px;
 display: flex;
 flex-direction: column;
 align-items: start;
-margin-left: 260px;
+margin-left: 16em;
 /* margin-left:auto;
 margin-right:auto; */
 /* margin-left: 450px; */
