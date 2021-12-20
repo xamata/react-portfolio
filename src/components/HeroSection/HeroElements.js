@@ -67,10 +67,10 @@ export const ImageBackground = styled.img`
     /* margin-left: -80px; */
     
 
-    @media screen and (max-width: 99%){
+    @media screen and (max-width: 1080px){
         /* object-fit:none;   */
         /* height: 100%; */
-        object-fit: cover;
+        object-fit: none;
         position: relative;
         height: 100%;
     }
