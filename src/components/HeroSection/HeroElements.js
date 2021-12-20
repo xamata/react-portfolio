@@ -57,19 +57,22 @@ overflow: hidden;
 export const ImageBackground = styled.img`
     /* fill in background position */
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    -o-object-fit: cover;
+    height: auto;
+    object-fit: contain;    
+    /* -o-object-fit: cover; */
+    position: relative;
     /* top:-80px; */
     /* img positioning */
     /* position: relative; */
     /* margin-left: -80px; */
     
 
-    @media screen and (max-width: 960px){
-        object-fit:none;  
+    @media screen and (max-width: 99%){
+        /* object-fit:none;   */
         /* height: 100%; */
+        object-fit: cover;
         position: relative;
+        height: 100%;
     }
 `
 
@@ -77,11 +80,12 @@ export const HeroContent = styled.div`
 z-index: 3;
 max-width: 1200px;
 position: absolute;
-padding: 8px 24px;
+padding: 40px 24px;
 display: flex;
 flex-direction: column;
 align-items: start;
-margin-left: 20%;
+margin-left: 25%;
+top:25%;
 /* margin-left:auto;
 margin-right:auto; */
 /* margin-left: 450px; */
