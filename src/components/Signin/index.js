@@ -1,12 +1,16 @@
 import React from 'react'
+import { SocialLogoImage } from '../Footer/FooterElements'
 import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormWrap, Icon, Text } from './SigninElements'
+import Logo from '../../images/mm_design.png'
 
 const Signin = () => {
     return (
         <>
             <Container>
                 <FormWrap>
-                    <Icon to='/'>Maximillian</Icon>
+                    <Icon to='/react-portfolio'>
+                        <SocialLogoImage src={Logo} />
+                    </Icon>
                     <FormContent>
                         <Form action='#'>
                             <FormH1>Sign in to your account</FormH1>

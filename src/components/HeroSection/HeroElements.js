@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 650px;
+    height: 860px;
     position: relative;
     z-index: 1;
     /* top: -80px; */
@@ -56,14 +56,16 @@ overflow: hidden;
 
 export const ImageBackground = styled.img`
     /* fill in background position */
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     /* img positioning */
     position: relative;
-    margin-left: -80px;
+    /* margin-left: -80px; */
+    
 
     @media screen and (max-width: 768px){
-        position: relative;
-        left:-700px
+        object-fit:none;  
     }
 `
 
@@ -75,23 +77,23 @@ padding: 8px 24px;
 display: flex;
 flex-direction: column;
 align-items: start;
-right:150px;
+margin-left: 260px;
 /* margin-left:auto;
 margin-right:auto; */
 /* margin-left: 450px; */
-/* 
-@media screen and (max-width: 3000px){
-    margin-left: 450px;
-} */
+
+@media screen and (max-width: 960px){
+    margin-left: 240px;
+} 
 
 @media screen and (max-width: 768px){
     align-items: center;
-    right: 0px;
+    margin-left: 0px;
 }
 
 @media screen and (max-width: 480px){
     align-items:center;
-    right: 0px;
+    margin-left: 0px;
 } 
 `
 

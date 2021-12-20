@@ -18,6 +18,10 @@ background: #4063FF;
 ); */
 `
 
+export const SigninHeaderLogo = styled.img`
+width: 24px;
+`
+
 export const FormWrap = styled.div`
 height: 100%;
 display: flex;

@@ -5,11 +5,12 @@ import { AboutMeHeaderLogo, ButtonDiv, ResumeLink } from './AboutMeDocElements'
 import socialLogoImage from '../../../images/mm_design.png'
 
 const AboutMeDocuments = ({ lightBg, id, img, alt, imgStart, topline, lightText, headline, darkText, description, primary, dark, dark2, buttonLabel, topDarkText }) => {
+
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper>
-                    <Icon to='/'>
+                    <Icon to='/react-portfolio'>
                         <AboutMeHeaderLogo src={socialLogoImage} />
                     </Icon>
                     <InfoRow imgStart={imgStart}>

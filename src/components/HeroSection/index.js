@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HeroBackground, HeroContent, HeroH1, HeroContainer, ImageBackground, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements';
 // import Video from '../../videos/video.mp4'
-import Image from '../../images/img-me.jpg';
+import Image from '../../images/max_portrait.png';
 import { ButtonS } from '../ButtonElements.js';
 
 const HeroSection = () => {
@@ -14,7 +14,7 @@ const HeroSection = () => {
     return (
         <HeroContainer id='home'>
             <HeroBackground>
-                <ImageBackground src={Image} type='img-me/jpg' />
+                <ImageBackground src={Image} type='max_portrait/png' />
             </HeroBackground>
             <HeroContent>
                 <HeroH1> Hi, I'm Maximllian Mata </HeroH1>

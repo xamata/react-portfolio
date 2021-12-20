@@ -31,7 +31,7 @@ const Navbar = ({ toggle }) => {
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo
-                            to='/'
+                            to='/react-portfolio'
                             onClick={toggleHome}
                             scrollNav={scrollNav}>
                             <NavLogoImage src={navImage} />

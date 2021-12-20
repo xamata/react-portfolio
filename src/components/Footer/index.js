@@ -44,14 +44,14 @@ const Footer = () => {
                             <FooterLinkTitle>Thank You</FooterLinkTitle>
                             <FooterLink to='/signin'>For Taking</FooterLink>
                             <FooterLink to='/signin'>The Time</FooterLink>
-                            <FooterLink to='/signin'>To Visiçt</FooterLink>
+                            <FooterLink to='/signin'>To Visit</FooterLink>
                             <FooterLink to='/signin'>My Page</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMediaContainer>
                     <SocialMediaWrap>
-                        <SocialLogo to='/' onClick={toggleToHome}>
+                        <SocialLogo to='/react-portfolio' onClick={toggleToHome}>
                             <SocialLogoImage src={socialLogoImage} /></SocialLogo>
                         <WebsiteRights>MaximillianMata © {new Date().getFullYear()}</WebsiteRights>
                         <SocialIcons>
