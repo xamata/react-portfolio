@@ -57,7 +57,7 @@ overflow: hidden;
 export const ImageBackground = styled.img`
     /* fill in background position */
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     /* img positioning */
     position: relative;
