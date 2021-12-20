@@ -79,24 +79,28 @@ export const ImageBackground = styled.img`
 export const HeroContent = styled.div`
 z-index: 3;
 max-width: 1200px;
-position: absolute;
+position: relative;
 padding: 40px 24px;
 display: flex;
 flex-direction: column;
 align-items: start;
-margin-left: 25%;
-top:25%;
+bottom: 20%;
+left: 20%;
+
+/* margin-left: 10%; */
+/* top:30%; */
 /* margin-left:auto;
 margin-right:auto; */
 /* margin-left: 450px; */
 
 @media screen and (max-width: 960px){
-    margin-left: 0;
+    left: 10%;
 } 
 
 @media screen and (max-width: 768px){
     align-items: center;
-    margin-left: 0;
+    left: 0;
+    bottom: 0;
 }
 
 @media screen and (max-width: 480px){
