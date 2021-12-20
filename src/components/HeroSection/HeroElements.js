@@ -59,7 +59,7 @@ export const ImageBackground = styled.img`
     width: 100%;
     height: 90%;
     object-fit: cover;
-    /* -o-object-fit: cover; */
+    -o-object-fit: cover;
     /* top:-80px; */
     /* img positioning */
     /* position: relative; */
