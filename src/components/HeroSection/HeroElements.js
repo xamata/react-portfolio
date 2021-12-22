@@ -42,6 +42,7 @@ left: 0;
 width: 100%;
 height: 100%;
 overflow: hidden;
+align
 `
 
 // export const VideoBg = styled.video`
@@ -84,7 +85,7 @@ padding: 40px 24px;
 display: flex;
 flex-direction: column;
 align-items: start;
-bottom: 15%;
+/* bottom: 15%; */
 left: 20%;
 
 /* margin-left: 10%; */
