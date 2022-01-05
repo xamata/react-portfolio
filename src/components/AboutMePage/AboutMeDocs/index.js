@@ -20,7 +20,7 @@ const AboutMeDocuments = ({ lightBg, id, img, alt, imgStart, topline, lightText,
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <ResumeLink href="//drive.google.com/file/d/1AcUfIQC7ZRNMFKrqUV6II9z7ducgKINQ/view?usp=sharing" target='_blank' aria-label='Resume'>
+                                    <ResumeLink href="//drive.google.com/drive/folders/1PZoHb7fkb5tbn_OFpVOONDNtzdgNexhm?usp=sharing" target='_blank' aria-label='Resume'>
                                         <ButtonDiv
                                             spy={true}
                                             primary={primary ? 1 : 0}
